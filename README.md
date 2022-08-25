@@ -7,8 +7,16 @@ Published in [IEEE Access'19](https://ieeexplore.ieee.org/abstract/document/8793
 # Demo: 
 FRMVK.m: you can run this FRMVK file, and its performance will be recorded automatically.
 
+# Initializations: 
+c : the desired number of clusters <br />
+s : the number of views <br />
+n : the number of data points <br />
+u : memberships <br />
+wf: feature weight <br />
+wv: view weight <br />
+
 # Parameters:
-c : no of clusters <br />
+
 alpha: the exponent for the view weights <br />
 delta: a balance parameter to control the feature weights of the k-th cluster in each view <br />
 
