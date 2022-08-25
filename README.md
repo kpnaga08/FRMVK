@@ -4,7 +4,13 @@ A matlab implementation of paper "A Feature-Reduction Multi-View k-Means Cluster
 
 Published in [IEEE Access'19](https://ieeexplore.ieee.org/abstract/document/8793138/) <br /> 
 
-Main Function: FRMVK
+# Demo: 
+FRMVK.m: you can run this FRMVK file, and its performance will be recorded automatically.
+
+# Parameters:
+c : no of clusters <br />
+alpha: the exponent for the view weights <br />
+delta: a balance parameter to control the feature weights of the k-th cluster in each view <br />
 
 **In case the repository or the publication was helpful in your work, please use the following to cite the original paper,**
 <pre><code> @article{yang2019feature,<br />
